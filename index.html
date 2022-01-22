@@ -4,6 +4,7 @@
   
    <!-- Metadata for the page -->
    <head>
+   
        <!-- Link to the CSS stylesheet -->
        <link rel="stylesheet" href="style.css">
        <!-- Tells all browsers and devices to treat pixel measurements the same -->
@@ -11,7 +12,12 @@
        <!-- Title of webpage in the browser -->
        <title>Fortune Teller</title>
        <meta charset="UTF-8">
-      
+     
+     <style>
+       body {background-color: powderblue;}
+       h1 {color: blue;}
+       p {color: red;}
+     </style>
    </head>
   
    <!-- All visible content on the page -->
@@ -22,7 +28,7 @@
        <!--<element onload="fortuneMessage()">-->
        <p id= "demo"></p>
 
-        <script type="text/javascript"> 
+        <script type="text/javascript"> <center>
             function fortuneMessage() {
                  var items = [ 
                  "The early bird gets the worm, but the second mouse gets the cheese.",
@@ -52,8 +58,8 @@
                  var item = items[Math.floor(Math.random() * items.length)];
                  document.getElementById("demo").innerHTML = item;
              }
-            <center> window.onload=fortuneMessage(); </center>
-        </script>
+             window.onload=fortuneMessage();
+        </center></script>
     </body>
      
 </html>
