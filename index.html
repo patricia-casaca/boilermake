@@ -10,15 +10,23 @@
        <!-- Title of webpage in the browser -->
        <title>Fortune Teller</title>
        <meta charset="UTF-8">
-       <script src="script.js"></script>
+       <script type="text/javascript">
+           function fortuneMessage() {
+                var items = ["You will have a good day",
+                    "You will have a bad day",
+                "You will have an ok day", "You will have an amazing day!"];
+                var item = items[Math.random() * items.length];
+            }
+            window.onload=fortuneMessage();
+       </script>
    </head>
   
    <!-- All visible content on the page -->
-   <body>
+   <body onload="fortuneMessage()">
        <!-- Main page heading -->
        <h1>Your Fortune:</h1>
      
-       <!-- A paragraph -->
+       <!--<element onload="fortuneMessage()">-->
        
        
     </body>
