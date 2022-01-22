@@ -20,14 +20,14 @@
    </head>
   
    <!-- All visible content on the page -->
-   <body onload="fortuneMessage()">
+   <center><body onload="fortuneMessage()">
        <!-- Main page heading -->
      <center><h1>Your Fortune:</h1></center>
      
        <!--<element onload="fortuneMessage()">-->
        <p id= "demo"></p>
 
-        <center><script type="text/javascript"> 
+        <script type="text/javascript"> 
             function fortuneMessage() {
                  var items = [ 
                  "The early bird gets the worm, but the second mouse gets the cheese.",
@@ -57,9 +57,9 @@
                  var item = items[Math.floor(Math.random() * items.length)];
                  document.getElementById("demo").innerHTML = item;
              }
-             window.onload=fortuneMessage(); 
-          </script></center>
-    </body>
+             window.onload=fortuneMessage();
+          </script>
+  </body></center>
   
    <head>
  <style type ="text/css" >
