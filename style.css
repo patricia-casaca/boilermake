@@ -1,5 +1,5 @@
 p {
-    color: red;
+    color: blueviolet;
 }
 ​
 /* Additional CSS rules */
@@ -8,6 +8,9 @@ body {
 }
 ​
 h1 {
+  text-align: center;
+    margin: 0px auto;
+    display: block;
   font-size: 24px;
 }
 ​
