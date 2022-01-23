@@ -23,6 +23,7 @@ As mentioned before, we used Twilio's API service. None of us had ever used Twil
 If possible, we plan to add more fortunes and implement more design choices to make the website look nice on all devices. We would also work on adding unverified numbers for the fortune text service so other users can enjoy it too.
 
 ## Resources
+https://www.twilio.com/docs/runtime/functions
 https://stories.mlh.io/launch-your-first-website-with-domain-com-and-google-cloud-platform-b0d72c448b6f
 
 IP address: 35.222.203.10
